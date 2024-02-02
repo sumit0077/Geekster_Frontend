@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(165, 42, 42, 0.2);
+      }
+      nav {
+        background: url("https://img.freepik.com/free-photo/close-up-coffee-cup-wooden-table-steam-rising-generative-ai_188544-8921.jpg?w=996&t=st=1705584172~exp=1705584772~hmac=dec515ce0a36658d0d42b5188528ce775206eba3bafe82067fc5c1e7e3a85ecd");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        box-shadow: 0px 0px 8px black;
+        margin-bottom: 40px;
+      }
+      nav > input {
+        position: sticky;
+        top: 60px;
+        left: 15%;
+        width: 70%;
+        height: 60px;
+        border-radius:10px;
+        background-color: rgb(99, 18, 18,1);
+        color: white;
+        border: none;
+        padding: 10px;
+      }
+      input:focus{
+        outline: none;
+        background-color: rgb(99, 18, 18,0.9);
+      }
+      .coffee_menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .coffee_menu > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgba(0, 0, 0, 0.8);
+      }
+      .img {
+        height: 150px;
+        width: 150px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: 0px 8px 8px black;
+      }
+      img:hover {
+        box-shadow: 0px 18px 18px black;
+        height: 152px;
+        width: 152px;
+      }
+      .coffee_menu > div > h4 {
+        margin-block: 15px;
+      }
+      .des {
+        width: 90%;
+        margin: auto;
+        margin-block: 50px;
+        background-color: rgb(165, 42, 42, 0.3);
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px brown;
+      }
+      .des>p,.des>ol{
+        line-height: 20px;
+        color: brown;
+      }
+      ol>li{
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="text" value="Search"/>
+    </nav>
+
+    <main>
+      <section class="coffee_menu">
+        <div>
+          <div class="img">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-coffee-cup-wooden-table-steam-rising-generative-ai_188544-8921.jpg?w=996&t=st=1705584172~exp=1705584772~hmac=dec515ce0a36658d0d42b5188528ce775206eba3bafe82067fc5c1e7e3a85ecd"
+              alt="Cappuccino"
+            />
+          </div>
+          <h4>Cappuccino</h4>
+        </div>
+        <div>
+          <div class="img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg"
+              alt="Espresso"
+            />
+          </div>
+          <h4>Espresso</h4>
+        </div>
+        <div>
+          <div class="img">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJppQpvbjiWse0QeBv0e2EstBXGOP1K80eAv9S0qPks2CDkhhc"
+              alt="Latte"
+            />
+          </div>
+          <h4>Latte</h4>
+        </div>
+        <div>
+          <div class="img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Flat_white_coffee_with_pretty_feather_pattern.jpg"
+              alt="Flat White"
+            />
+          </div>
+          <h4>Flat White</h4>
+        </div>
+      </section>
+      <section class="des">
+        <h1 style="color: brown;">Coffee-House</h1>
+        <p>
+            Coffee is a beverage brewed from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content. It has the highest sales in the world market for hot drinks.[2]
+
+            The seeds of the Coffea plant's fruits are separated to produce unroasted green coffee beans. The beans are roasted and then ground into fine particles typically steeped in hot water before being filtered out, producing a cup of coffee. It is usually served hot, although chilled or iced coffee is common. Coffee can be prepared and presented in a variety of ways (e.g., espresso, French press, caffè latte, or already-brewed canned coffee). Sugar, sugar substitutes, milk, and cream are often added to mask the bitter taste or enhance the flavor. 
+        </p>
+        <br>
+        <p>
+            The word coffee entered the English language in 1582 via the Dutch koffie, borrowed from the Ottoman Turkish kahve (قهوه), borrowed in turn from the Arabic qahwah (قَهْوَة).[6] Medieval Arab lexicographers traditionally held that the etymology of qahwah meant 'wine', given its distinctly dark color, and was derived from the verb qahiya (قَهِيَ), 'to have no appetite'.[7] The word qahwah most likely meant 'the dark one', referring to the brew or the bean; qahwah is not the name of the bean, which are known in Arabic as bunn and in Cushitic languages as būn. Semitic languages had the root qhh, 'dark color', which became a natural designation for the beverage. Its cognates include the Hebrew qehe(h) ('dulling') and the Aramaic qahey ('give acrid taste to').[7] Although etymologists have connected it with a word meaning "wine", it is also thought to be from the Kaffa region of Ethiopia.[
+        </p>
+         <br>
+        <p>
+            The earliest credible evidence of coffee drinking or knowledge of the coffee tree appears in the middle of the 15th century in the accounts of Ahmed al-Ghaffar in Yemen,[3] where coffee seeds were first roasted and brewed in a similar way to how it is prepared now. Coffee was used by Sufi circles to stay awake for their religious rituals.[13] Accounts differ on the origin of the coffee plant before its appearance in Yemen. From Ethiopia, coffee could have been introduced to Yemen via trade across the Red Sea.[14] One account credits Muhammad Ibn Sa'd for bringing the beverage to Aden from the African coast,[15] other early accounts say Ali ben Omar of the Shadhili Sufi order was the first to introduce coffee to Arabia.[15][16] According to al Shardi, Ali ben Omar may have encountered coffee during his stay with the Somali Sultan of Adal Sa'ad ad-Din's companions in 1401.
+
+Famous 16th-century Islamic scholar Ibn Hajar al-Haytami notes in his writings that a beverage called qahwa developed from a tree in the Zeila region located in the Horn of Africa.[13] Coffee was first exported from Ethiopia to Yemen by Somali merchants from Berbera and Zeila in modern-day Somaliland, which was procured from Harar and the Abyssinian interior. According to Captain Haines, who was the colonial administrator of Aden (1839–1854), Mocha historically imported up to two-thirds of their coffee from Berbera-based merchants before the coffee trade of Mocha was captured by British-controlled Aden in the 19th century. After that, much of the Ethiopian coffee was exported to Aden via Berbera.[17] 
+          </p>
+      </section>
+      <section class="des">
+        <h1 style="color: brown;">Coffee list</h1>
+        <ol>
+            <li>Black</li>
+            <li>Latte</li>
+            <li>Cappuccino</li>
+            <li>Americano</li>
+            <li>Espresso</li>
+            <li>Doppio</li>
+        </ol>
+           <br>
+          <p>
+            Black
+            <br>
+            Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir. Since it isn’t doctored up with milk or sugar, the quality of coffee is especially important. Treat yourself to a coffee subscription box to find your favorite style.
+            <br>
+            Latte<br>
+            As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice. (Here’s how to make a copycat Starbucks pumpkin spice latte.)
+            <br>
+            Cappuccino<br>
+            
+            Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.
+            
+            Psst! Did you know mushroom coffee is a thing?
+            
+            <br>Americano<br>
+            
+            With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water. Pro tip: if you’re making your own, pour the espresso first, then add the hot water.
+            <br>Espresso<br>
+            
+            An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos. If you’re an at-home barista, this Breville Bambino and espresso accessories will turn your house into your own coffee shop. Figure out how an espresso is different from coffee.
+            
+            Always on the go? This portable espresso maker lets you brew your coffee without needing a power source, so you can take it with you wherever you need it!
+            <br>Doppio<br>
+            
+            A double shot of espresso, the doppio is perfect for putting extra pep in your step.
+            </p>
+      </section>
+    </main>
+  </body>
+</html>
